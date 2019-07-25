@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="5958" started-at="2019-07-25T06:08:29Z" finished-at="2019-07-25T06:08:35Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5958" started-at="2019-07-25T06:08:29Z" finished-at="2019-07-25T06:08:35Z">
+      <class name="com.test.SampleProject">
+        <test-method status="PASS" signature="createEmployee()[pri:0, instance:com.test.SampleProject@4f638935]" name="createEmployee" duration-ms="2381" started-at="2019-07-25T11:38:29Z" finished-at="2019-07-25T11:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployee -->
+        <test-method status="PASS" signature="deleteEmployee()[pri:0, instance:com.test.SampleProject@4f638935]" name="deleteEmployee" duration-ms="767" started-at="2019-07-25T11:38:31Z" finished-at="2019-07-25T11:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method status="PASS" signature="mailsend()[pri:0, instance:com.test.SampleProject@4f638935]" name="mailsend" duration-ms="2021" started-at="2019-07-25T11:38:32Z" finished-at="2019-07-25T11:38:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailsend -->
+        <test-method status="PASS" signature="updateEmployee()[pri:0, instance:com.test.SampleProject@4f638935]" name="updateEmployee" duration-ms="772" started-at="2019-07-25T11:38:34Z" finished-at="2019-07-25T11:38:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployee -->
+        <test-method status="PASS" signature="afterAllTest()[pri:0, instance:com.test.SampleProject@4f638935]" name="afterAllTest" is-config="true" duration-ms="1403" started-at="2019-07-25T11:38:35Z" finished-at="2019-07-25T11:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTest -->
+      </class> <!-- com.test.SampleProject -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
