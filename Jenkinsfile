@@ -1,5 +1,5 @@
 node {
-label 'windows' 
+label 'slave 1' 
     withMaven(maven:'maven') {
 
         stage('Checkout') {
