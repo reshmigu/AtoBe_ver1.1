@@ -9,7 +9,7 @@ ADD MailCredentials.xlsx /
 ADD testng.xml /
 ADD test-output/* /test-output/
 RUN ls
-ENTRYPOINT ["java", "-cp", "./*:*", "org.testng.TestNG", "testng.xml"]
+ENTRYPOINT ["java", "-cp", "./*:/*", "org.testng.TestNG", "testng.xml"]
 #CMD exec java -cp ./* org.testng.TestNG -testclass com.test.SampleProject
 #RUN java -cp "" org.testng.TestNG -testclass com.test.SampleProject
 #CMD exec java -jar RestAssuredServicesTestProject-0.0.1-SNAPSHOT.jar
